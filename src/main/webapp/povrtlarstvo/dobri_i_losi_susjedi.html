@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Dobri i lo&#353;i susjedi u vrtu</title>
+    <script type="text/javascript" src="/_jscript/pdfobject.js"></script>
+    <script type="text/javascript">
+<!-- GA start -->
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28168685-1']);
+  _gaq.push(['_setDomainName', 'bioraznolikost.org']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+<!-- GA end -->
+      window.onload = function (){
+	  
+        var myPDF = new PDFObject({ 
+		
+			url: "/_pdf/dobri_i_losi_susjedi.pdf",
+			pdfOpenParams: {
+				navpanes: 1,
+				view: "FitV",
+				pagemode: "thumbs"
+			}
+		
+		}).embed();
+		
+      };
+
+    </script>
+  </head>
+ 
+  <body>
+	<p><b>Dobri i loši susjedi u vrtu</b></p>
+    <p>Nemate instaliran Adobe Reader. <a href="/_pdf/dobri_i_losi_susjedi.pdf">Preuzmite u pdf formatu mapu dobrih i loših susjeda u vrtu</a></p>
+  </body>
+</html>
