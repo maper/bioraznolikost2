@@ -8,7 +8,7 @@ body{padding-top:5px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size
 #right_sidebar {border-left: 1px solid gray; width: 190px; float: right;}
 #right_sidebar a{padding-left:5px;margin-bottom:5px;display:block;}
 
-#header {border: 1px solid gray; width: 1000px; position: absolute; left: 50%; margin-left: -500px; height: 100px;background:  url('/_img/ma.jpg') no-repeat center right;}
+#header {border: 1px solid gray; width: 1000px; position: absolute; left: 50%; margin-left: -500px; height: 100px;background:  url("../_img/ma.jpg") no-repeat center right;}
 #header h4{margin-left:10px;color:gray}
 #left_sidebar {border: 1px solid gray; width: 190px; float: left;padding-bottom:5px}
 #left_sidebar a{font-size:11px;display:block;margin-left:5px;margin-bottom:5px}
