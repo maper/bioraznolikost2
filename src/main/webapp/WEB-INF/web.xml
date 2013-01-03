@@ -20,10 +20,7 @@
  <listener>
   <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
  </listener>
- <!--  <servlet>
-  <servlet-name>health</servlet-name>
-  <jsp-file>/health.jsp</jsp-file>
- </servlet> -->
+ 
  <servlet>
   <servlet-name>mainServlet</servlet-name>
   <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -33,17 +30,14 @@
 		</init-param>
 		<async-supported>true</async-supported>
  </servlet>
- <!--  <servlet-mapping>
-  <servlet-name>health</servlet-name>
-  <url-pattern>/health</url-pattern>
- </servlet-mapping> -->
+ 
  <servlet-mapping>
   <servlet-name>mainServlet</servlet-name>
   <url-pattern>/*.do</url-pattern>
  </servlet-mapping>
  <!-- Disables Servlet Container welcome file handling. Needed for compatibility with Servlet 3.0 and Tomcat 7.0 -->
 	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>/index.jsp</welcome-file>
 	</welcome-file-list>	
  
 </web-app>
