@@ -39,7 +39,7 @@
  </servlet-mapping> -->
  <servlet-mapping>
   <servlet-name>mainServlet</servlet-name>
-  <url-pattern>app/*</url-pattern>
+  <url-pattern>*.do</url-pattern>
  </servlet-mapping>
  <!-- Disables Servlet Container welcome file handling. Needed for compatibility with Servlet 3.0 and Tomcat 7.0 -->
 	<welcome-file-list>
