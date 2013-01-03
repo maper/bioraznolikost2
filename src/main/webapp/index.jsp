@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Bioraznolikost</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta http-equiv="cache-control" content="no-cache">
 <meta http-equiv="content-language" content="hr">
 <meta name="robots" content="index, follow">
@@ -41,43 +41,43 @@
 
 <body leftmargin="0" topmargin="0">
 <div id="header">
-	<h4><a style="color:white" href="index.html">bioraznolikost.org</a></h4>
+	<h4><a style="color:white" href="${pageContext.request.contextPath}/index.jsp">bioraznolikost.org</a></h4>
 </div>
 <div id="main">
  <div id="left_sidebar">
 	 <div>
 		<i>Povrtnjak</i>
-		<a href="povrtlarstvo/dobri_i_losi_susjedi.html">Dobri i loši susjedi u vrtu</a>
-		<a href="povrtlarstvo/korisni_kukci.html">Korisni kukci u vrtu</a>
-		<a href="povrtlarstvo/allium_cepa.html" >Luk<i >(Allium cepa)</i></a>
-		<a href="povrtlarstvo/allium_cepa_dalmatia.html" >Ljutika <i>(Allium cepa var. Dalmatia)</i></a>
-		<a href="povrtlarstvo/allium_sativum.html" > Češnjak (bijeli luk)<i >(Allium sativum)</i></a>
+		<a href="${pageContext.request.contextPath}/povrtlarstvo/dobri_i_losi_susjedi.html">Dobri i loši susjedi u vrtu</a>
+		<a href="${pageContext.request.contextPath}/povrtlarstvo/korisni_kukci.html">Korisni kukci u vrtu</a>
+		<a href="${pageContext.request.contextPath}/povrtlarstvo/allium_cepa.html" >Luk<i >(Allium cepa)</i></a>
+		<a href="${pageContext.request.contextPath}/povrtlarstvo/allium_cepa_dalmatia.html" >Ljutika <i>(Allium cepa var. Dalmatia)</i></a>
+		<a href="${pageContext.request.contextPath}/povrtlarstvo/allium_sativum.html" > Češnjak (bijeli luk)<i >(Allium sativum)</i></a>
 	 </div>
 	 <div style="margin-top:10px;border-top:1px dotted gray;padding-top:5px">
 		<i >Le cuisine</i>
-		<a href="leCuisine/kiselo_tijesto.html">Kruh od kiselog tijesta</a>
+		<a href="${pageContext.request.contextPath}/leCuisine/kiselo_tijesto.html">Kruh od kiselog tijesta</a>
 	 </div>
 	 <div style="margin-top:10px;border-top:1px dotted gray;padding-top:5px">
 		<i >Vrtlarski savjeti</i>
-		<a href="vrtlarskiSavjeti/zastita_bilja.html">Zaštita bilja</a>
-		<a href="vrtlarskiSavjeti/bordoska_juha.html">Bordoška juha</a>
+		<a href="${pageContext.request.contextPath}/vrtlarskiSavjeti/zastita_bilja.html">Zaštita bilja</a>
+		<a href="${pageContext.request.contextPath}/vrtlarskiSavjeti/bordoska_juha.html">Bordoška juha</a>
 	 </div>
 	 <div style="margin-top:10px;border-top:1px dotted gray;padding-top:5px">
 		<i>Voćarstvo</i>
-		<a href="vocarstvo/sadnja_vocaka.html">Sadnja voćaka – dilema jesen ili proljeće?</a>
+		<a href="${pageContext.request.contextPath}/vocarstvo/sadnja_vocaka.html">Sadnja voćaka – dilema jesen ili proljeće?</a>
 	 </div>
 	 <div style="margin-top:10px;border-top:1px dotted gray;padding-top:5px">
 		<i>Ljekovito bilje</i>
-		<a href="ljekovitoBilje/kalendar_berbe.html">Kalendar berbe ljekovitog bilja</a>
+		<a href="${pageContext.request.contextPath}/ljekovitoBilje/kalendar_berbe.html">Kalendar berbe ljekovitog bilja</a>
 	 </div>
  </div>
  <div id="content_main">
  	<div style="float:left;width:75%;margin:5px">
 	<div class="news">
-		<a href="bioraznolikost/bioraznolikost_i_permakultura.html" style="margin-left:5px">
+		<a href="${pageContext.request.contextPath}/bioraznolikost/bioraznolikost_i_permakultura.html" style="margin-left:5px">
 		<b>Bioraznolikost i permakultura</b></a>
 		<p>Permakultura kao princip dizajniranja održivih, trajnih biljno-životinjskih sustava i bioraznolikost su usko povezani. Permakultura se nameće kao moguće riješenje za očuvanje bioraznolikosti na planeti. Podizanje permakulturalne svijesti jedan je od načina kako se može pridonjeti očuvanju bioraznolikosti i zato je neophodno širiti permakulturale ideje i znanje.
-		<a href="bioraznolikost/bioraznolikost_i_permakultura.html"><i>više</i></a>
+		<a href="${pageContext.request.contextPath}/bioraznolikost/bioraznolikost_i_permakultura.html"><i>više</i></a>
 		</p>
 	</div>
 	<div class="news" >
@@ -109,9 +109,9 @@
  	</div>
 	<div  style="border-left:1px solid gray;float:right;width:20%;margin-top:5px;margin-right:5px">
 		<i style="color:gray;margin-left:5px;margin-bottom:5px">novo</i>
-		<div style="padding-left:5px"><a  href="ljekovitoBilje/kalendar_berbe.html">Kalendar berbe ljekovitog bilja</a></div>
-		<div style="padding-left:5px;margin-top:15px"><a  href="povrtlarstvo/allium_cepa.html">Crveni luk-allium cepa, sadnja, homeopatija...</a></div>
-		<div style="padding-left:5px;margin-top:15px"><a  href="leCuisine/kiselo_tijesto.html">O kiselom tijestu i kako napraviti kruh od kiselog tijesta...</a></div>
+		<div style="padding-left:5px"><a  href="${pageContext.request.contextPath}/ljekovitoBilje/kalendar_berbe.html">Kalendar berbe ljekovitog bilja</a></div>
+		<div style="padding-left:5px;margin-top:15px"><a  href="${pageContext.request.contextPath}/povrtlarstvo/allium_cepa.html">Crveni luk-allium cepa, sadnja, homeopatija...</a></div>
+		<div style="padding-left:5px;margin-top:15px"><a  href="${pageContext.request.contextPath}/leCuisine/kiselo_tijesto.html">O kiselom tijestu i kako napraviti kruh od kiselog tijesta...</a></div>
  	</div>
 	</div>
  	<div id="right_sidebar">
