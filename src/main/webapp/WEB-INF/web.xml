@@ -31,6 +31,7 @@
 			<param-name>contextConfigLocation</param-name>
 			<param-value>/WEB-INF/spring/appServlet/main-context.xml</param-value>
 		</init-param>
+		<async-supported>true</async-supported>
  </servlet>
  <!--  <servlet-mapping>
   <servlet-name>health</servlet-name>
@@ -38,7 +39,7 @@
  </servlet-mapping> -->
  <servlet-mapping>
   <servlet-name>mainServlet</servlet-name>
-  <url-pattern>/</url-pattern>
+  <url-pattern>/spring/</url-pattern>
  </servlet-mapping>
  <!-- Disables Servlet Container welcome file handling. Needed for compatibility with Servlet 3.0 and Tomcat 7.0 -->
 	<welcome-file-list>
