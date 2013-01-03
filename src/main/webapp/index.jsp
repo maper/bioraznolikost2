@@ -118,7 +118,9 @@
  		<a target="_blank" href="http://www.hcphs.hr/">Hrvatski centar za poljoprivredu, hranu i selo</a>
  		<a target="_blank" href="http://www.hcphs.hr/UserDocsImages/obrasci-ZSR/dokumenti-ZSR/Nacionalna%20sortna%20lista%2028.11.2011.pdf">Nacionalna sortna lista</a>
 		 <a target="_blank" href="http://www.hcphs.hr/UserDocsImages/obrasci-ZSR/dokumenti-ZSR/Popis%20sorti%20vo%C4%87nih%20vrsta%202011-071211.pdf"> Popis voćnih sorti </a>
-<script type="text/javascript" charset="utf-8" src="http://s6.scribdassets.com/javascripts/doc_widget/v1.1.js"> </script>
+<!-- <script type="text/javascript" charset="utf-8"  src="http://s6.scribdassets.com/javascripts/doc_widget/v1.1.js"> </script> -->
+<script type="text/javascript" src="_jscript/v1.1.js"></script>
+
 <script type="text/javascript" charset="utf-8">
 ScribdX.DocWidget.BASE_URL = "http://www.scribd.com";
 ScribdX.DocWidget.ASSETS_BASE_URL = "http://s6.scribdassets.com";
