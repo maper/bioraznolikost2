@@ -29,7 +29,7 @@ public class Contact  {
     	System.out.println("test"+data.getMsg());
     	Email email=new Email();
     	email.setFrom("mario@localhost.com");
-    	email.setMsg("proba");
+    	email.setMsg(data.getMsg());
     	email.setSubject("test");
     	email.setTo("peranic@gmail.com");
     	try{
