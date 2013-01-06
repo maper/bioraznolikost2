@@ -40,7 +40,7 @@ function loadContent()
 	
 	  <form:form action="send.do" method="POST">
 	  <table>
-	  <tr><td>Poruka:</td><td><form:textarea path="msg" /></td></tr>
+	  <tr><td style="">Poruka:</td><td rowspan="2"><form:textarea path="msg" /></td></tr>
 	  <tr><td colspan="2"><input type="submit" value="pošalji"/></td></tr>
 	  </table>
 	  </form:form>

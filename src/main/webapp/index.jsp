@@ -70,6 +70,10 @@
 		<i>Ljekovito bilje</i>
 		<a href="${pageContext.request.contextPath}/ljekovitoBilje/kalendar_berbe.html">Kalendar berbe ljekovitog bilja</a>
 	 </div>
+	 <div style="margin-top:10px;border-top:1px dotted gray;padding-top:5px">
+		
+		<a href="${pageContext.request.contextPath}/contact/index.do">Kontakt</a>
+	 </div>
  </div>
  <div id="content_main">
  	<div style="float:left;width:75%;margin:5px">
