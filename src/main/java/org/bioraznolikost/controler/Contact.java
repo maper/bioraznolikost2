@@ -31,6 +31,7 @@ public class Contact  {
     @RequestMapping("contact/send")
 	public ModelAndView send(@ModelAttribute("command")ContactData data, HttpServletRequest req,HttpServletResponse resp){
     	System.out.println("test"+data.getMsg());
+    	System.out.println("remote addr:"+req.getRemoteAddr()+";chlange fiels:"+req.getParameter("recaptcha_challenge_field")+";response field:"+ req.getParameter("recaptcha_response_field"));
     	ReCaptcha captcha = ReCaptchaFactory.newReCaptcha("6LcVNdsSAAAAAFCZ2gJ8DO-aj0aEqZyMiUS3T-ij", "6LcVNdsSAAAAAH_X_Sx_GVLpNLjBd5NELAiHnoLN", false);
         ReCaptchaResponse response = captcha.checkAnswer(req.getRemoteAddr(), req.getParameter("recaptcha_challenge_field"), req.getParameter("recaptcha_response_field"));
         ContactData cd=new ContactData();
@@ -45,13 +46,15 @@ public class Contact  {
         	}catch(Exception e){
         		System.out.println(e);
         		cd.setResponse(e.toString());
-        		return new ModelAndView("contact/sent","response",cd);
+        		return new ModelAndView("contact/form","response",cd);
         	}
         	cd.setResponse("Bravo");
     		return new ModelAndView("contact/sent","response",cd);
         }
         else {
+        	String captchaScript = captcha.createRecaptchaHtml(null, null);
         	cd.setResponse("pokusaj ponovno");
+        	cd.setReCaptcha(captchaScript);
         	return new ModelAndView("contact/form","command",cd);    
 
         }

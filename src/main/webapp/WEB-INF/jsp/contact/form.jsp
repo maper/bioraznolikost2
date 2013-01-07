@@ -35,16 +35,19 @@ function loadContent()
 	<div id="left_sidebar_container">
 	</div>
 
-	<div id="content_main" style="">
+	<div id="content_main" style="" align="center">
      <c:out value="${response.response}"></c:out>
 	
 	  <form:form action="send.do" method="POST">
 	  <table>
-	  <tr><td style="">Poruka:</td><td rowspan="2"><form:textarea path="msg" /></td></tr>
-	  <tr><td colspan="2"><input type="submit" value="pošalji"/></td></tr>
+	  <tr><td><form:textarea path="msg" rows="10" cols="41" style="margin-left:5px"/></td></tr>
+	  
+	 
+	  <tr><td>  <c:out value="${command.reCaptcha}" escapeXml="false" ></c:out></td></tr>
+	   <tr><td><input type="submit" value="pošalji"/></td></tr>
 	  </table>
 	  </form:form>
-	  <c:out value="${command.reCaptcha}" escapeXml="false" ></c:out>
+	
 	</div>
 
 	<div id="right_sidebar">
