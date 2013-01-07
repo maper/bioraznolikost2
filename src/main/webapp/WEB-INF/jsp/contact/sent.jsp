@@ -37,6 +37,7 @@ function loadContent()
 
 	<div id="content_main" style="">
 
+	     <c:out value="${response.response}"></c:out>
 	
 	<p>Vaš mail je poslan</p>
 	</div>

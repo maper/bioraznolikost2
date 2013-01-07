@@ -36,7 +36,7 @@ function loadContent()
 	</div>
 
 	<div id="content_main" style="">
-
+     <c:out value="${response.response}"></c:out>
 	
 	  <form:form action="send.do" method="POST">
 	  <table>
@@ -44,6 +44,7 @@ function loadContent()
 	  <tr><td colspan="2"><input type="submit" value="pošalji"/></td></tr>
 	  </table>
 	  </form:form>
+	  <c:out value="${command.reCaptcha}" escapeXml="false" ></c:out>
 	</div>
 
 	<div id="right_sidebar">
