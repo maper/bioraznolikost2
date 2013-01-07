@@ -5,7 +5,7 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta http-equiv="cache-control" content="no-cache">
 <meta http-equiv="content-language" content="hr">
-<META HTTP-EQUIV="refresh" CONTENT="0;URL=http://bioraznolikost2-bioraznolikost.rhcloud.com/">
+
 
 <meta name="robots" content="index, follow">
 <meta name="keywords" content="bioraznolikost">
